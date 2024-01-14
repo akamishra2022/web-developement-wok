@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    img{
+    display: block;
+    height: 200px;
+    max-width: 100%; /* To display the proper width of image, to avoid shrinking of image */
+    }
+    .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    }
+    .card{
+    padding: 1.5em;
+    place-items: center;
+    }
+    .card1{
+    background-color: aliceblue;
+    grid-column: 1/4;
+    }
+    .card2{
+    background-color: antiquewhite;
+    grid-column: 2/4;
+    }
+    .card3{
+    background-color: rgb(153, 255, 255);
+    grid-row: 2;
+    }
+    .card4{
+    background-color: blanchedalmond;
+    }
+    .card5{
+    background-color: blueviolet;
+    }
+    .card6{
+    background-color: thistle;
+    }
